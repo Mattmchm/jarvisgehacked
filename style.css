@@ -1,0 +1,185 @@
+body{
+    font-family:IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
+    margin: 0px;
+}
+.Content{
+    display:inline-flex;
+    flex: 1;
+    background-color:midnightblue;
+    border-bottom: midnightblue 10px solid;
+    color: white;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+ul.Links{
+    list-style-type: none;
+    display:inline-flex;
+}
+ul.Midden{
+    list-style-type: none;
+    display:inline-flex;
+}
+ul.Rechts{
+    list-style-type: none;
+    display:inline-flex;
+}
+div.links{
+    display: flex;
+    padding: 0px 0;
+    margin: 0 0;
+    justify-content: start;
+}
+div.Midden{
+    display: flex;
+    padding-left: 15px;
+    justify-content:center;
+}
+div.Rechts{
+    display: flex;
+    padding: 4px 0;
+    justify-content: end;
+}
+.Level{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(139, 255, 255);
+    border: Solid midnightblue 1px;
+    border-radius: 12px;
+    z-index: 1;
+    align-items: center;
+}
+.Credits{
+    display: flex;
+    margin-right: 10px;
+}
+p.Credits{
+    margin-right: 10px;
+margin-top: 5px;
+}
+li.Feedback{
+    background-color: white;
+    color: rgb(72, 160, 72);
+    border: 1px white solid;
+    border-radius: 10px;
+}
+.Profile{
+    display: flex;
+    border-radius: 25px;
+    border: solid midnightblue 1px;
+}
+li{
+    display: flex;
+}
+table{
+    flex: 1;
+    display: flex;
+    justify-content:space-around;
+    border-collapse: collapse;
+    box-shadow: 4px 4px 10px gray;
+}
+.Bekijk{
+    background-color: rgb(72, 160, 72);
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    margin: -20px;
+    margin-right: -10px;
+    width: 80px;
+    height: 40px;
+}
+.Vul-in{
+    display: flex;
+    background-color: rgb(72, 160, 72);
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    margin: -20px;
+    align-items: center;
+    margin-right: -10px;
+    width: 80px;
+    height: 40px;
+}
+.Over{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 4px 4px 10px gray;
+    align-items: center;
+}
+tr {
+    border-bottom: 0.1px solid gray;
+    padding: 20px;
+}
+td{
+    padding: 20px;
+}
+th{
+    padding: 20px;
+    text-align: start;
+}
+.Progressbar{
+    display: flex;
+    background-color:lightseagreen;
+    border: 1px lightseagreen solid;
+    border-radius: 12px;
+    z-index: 2;
+    width: 10px;
+    margin-left: -5px;
+}
+.LevelBar{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    height: 40px;
+    width: 120px;
+    border: aqua 1px solid;
+    border-radius: 8px;
+    z-index: 1;
+    margin-top: 10px;
+}
+div.Onderkant1{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+    height: 200px;
+    flex-wrap: wrap;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    margin-top: -50px;
+}
+div.Onderkant2{
+    display: flex;
+    justify-content: end;
+}
+div.Onderkant{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+div.Alles{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    position: relative;
+}
+.Titel{
+    display: flex;
+    position: relative;
+    left: 12%;
+}
+img{
+    height: auto;
+    width: auto;
+    max-width: 120px;
+    max-height: 40px;
+    object-fit: contain;
+}
